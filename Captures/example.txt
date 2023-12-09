@@ -1,0 +1,17 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000       192.168.200.1         192.168.100.1         ICMP     74     Echo (ping) request  id=0x0001, seq=14/3584, ttl=128 (reply in 2)
+
+0000  00 05 32 da 69 e0 ec b1 d7 40 d7 e4 08 00 45 00   ..2.i....@....E.
+0010  00 3c 61 25 00 00 80 01 00 00 c0 a8 c8 01 c0 a8   .<a%............
+0020  64 01 08 00 4d 4d 00 01 00 0e 61 62 63 64 65 66   d...MM....abcdef
+0030  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+0040  77 61 62 63 64 65 66 67 68 69                     wabcdefghi
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.003678       192.168.100.1         192.168.200.1         ICMP     74     Echo (ping) reply    id=0x0001, seq=14/3584, ttl=126 (request in 1)
+
+0000  ec b1 d7 40 d7 e4 00 05 32 da 69 e0 08 00 45 00   ...@....2.i...E.
+0010  00 3c 72 f7 00 00 7e 01 1c 76 c0 a8 64 01 c0 a8   .<r...~..v..d...
+0020  c8 01 00 00 55 4d 00 01 00 0e 61 62 63 64 65 66   ....UM....abcdef
+0030  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+0040  77 61 62 63 64 65 66 67 68 69                     wabcdefghi
